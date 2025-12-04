@@ -41,8 +41,8 @@ def gridsearch(grid: np.array, debug: bool = False) -> int:
     return accessible
 
 def main():
-    array = fileread(FILENAME, debug = True)
-    result = gridsearch(array, debug = True)
+    array = fileread(FILENAME)
+    result = gridsearch(array)
     print(f"Accessible paper rolls: {result}")
     return result
 
