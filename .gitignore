@@ -53,3 +53,10 @@
 # Environment variables
 .env
 .env.local
+
+# Rust
+/target/
+**/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
